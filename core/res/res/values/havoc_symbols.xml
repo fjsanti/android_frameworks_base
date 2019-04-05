@@ -388,4 +388,7 @@
 
   <!-- Whether devices supports Qualcomm Boost Framework -->
   <java-symbol type="bool" name="config_enableQcCpuBoost" />
+
+  <!-- Whether to show a custom view for FOD -->
+  <java-symbol type="bool" name="config_needCustomFODView" />
 </resources>

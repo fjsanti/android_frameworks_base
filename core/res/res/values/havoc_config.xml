@@ -282,6 +282,9 @@
     <!-- Whether to enable oneplus cam hack -->
     <bool name="config_enableOPcamhack">false</bool>
 
+    <!-- Whether to show a custom view for FOD -->
+    <bool name="config_needCustomFODView">false</bool>
+
     <!-- Whether to enable Qualcomm Boost Framework -->
     <bool name="config_enableQcCpuBoost">false</bool>
 </resources>
