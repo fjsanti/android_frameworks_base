@@ -337,10 +337,6 @@
   <!-- Dreamliner service -->
   <java-symbol type="bool" name="config_enableDreamlinerService" />
 
-  <!-- FoD -->
-  <java-symbol type="bool" name="config_needCustomFODView" />
-  <java-symbol type="bool" name="config_usesOnePlusFOD" />
-
   <!-- LiveDisplay -->
   <java-symbol type="integer" name="config_dayColorTemperature" />
   <java-symbol type="integer" name="config_outdoorAmbientLux" />
@@ -389,4 +385,7 @@
   <java-symbol type="string" name="gaming_mode_notification_content" />
   <java-symbol type="string" name="gaming_mode_enabled_toast" />
   <java-symbol type="string" name="gaming_mode_disabled_toast" />
+
+  <!-- Whether devices supports Qualcomm Boost Framework -->
+  <java-symbol type="bool" name="config_enableQcCpuBoost" />
 </resources>
